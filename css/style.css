@@ -1,0 +1,58 @@
+*{
+  font-family: courier;
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  text-align: center;
+  background-image: url("../img/header.jpg");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  color: black;
+  padding: 0;
+  height: 200px;
+  background-size: cover;
+  padding-top: 3%;
+}
+
+header h1 {
+  font-size: 50px;
+}
+
+#controls {
+  text-align: center;
+}
+
+#controls input{
+  margin-left: 2%;
+  font-family: courier !important;
+}
+
+button{
+  padding: 5px;
+  width: 15%;
+  background-color: blue;
+  color: white;
+  font-weight: 900;
+  font-family: sans-serif;
+  border: 1px solid lightgray;
+  border-radius: 5%;
+  margin: 50px auto;
+}
+
+button:hover{
+  background-color: green;
+}
+
+#details{
+  text-decoration: none !important;
+  margin-bottom: 2%;
+}
+
+#map {
+  top: 2%;
+  width: 70%;
+  margin: 50px auto;
+  height: 500px;
+}

@@ -1,10 +1,9 @@
-*{
-  font-family: courier;
+* {
   padding: 0;
   margin: 0;
 }
 
-header{
+header {
   text-align: center;
   background-image: url("../img/header.jpg");
   background-repeat: no-repeat;
@@ -24,15 +23,13 @@ header h1 {
   text-align: center;
 }
 
-#controls input{
+#controls input {
   margin-left: 2%;
-  font-family: courier !important;
 }
 
-button{
+button {
   padding: 5px;
   width: 15%;
-  background-color: blue;
   color: white;
   font-weight: 900;
   font-family: sans-serif;
@@ -41,11 +38,7 @@ button{
   margin: 50px auto;
 }
 
-button:hover{
-  background-color: green;
-}
-
-#details{
+#details {
   text-decoration: none !important;
   margin-bottom: 2%;
 }
@@ -55,4 +48,15 @@ button:hover{
   width: 70%;
   margin: 50px auto;
   height: 500px;
+}
+
+.btn,
+.btn-primary {
+  background-color: #FF421D;
+  border: 1px solid black;
+}
+
+.btn:hover,
+.btn-primary:hover {
+  background-color: #89A4D3;
 }
